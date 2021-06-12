@@ -2,7 +2,7 @@ import joblib
 import math
 import pandas as pd
 
-rf = joblib.load("models/rf.modelo_SVM_2")  #Cargamos el random forest
+rf = joblib.load("models/modelo_SVM_2")  #Cargamos el random forest
 
 meanVal = joblib.load("data/meanVal.pkl")  #Cargamos los valores medios
 meanVal = pd.DataFrame(meanVal)
